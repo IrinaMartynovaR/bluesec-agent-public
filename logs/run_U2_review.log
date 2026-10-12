@@ -1,0 +1,29 @@
+2026-10-08 12:16:33.663 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CreateRun attempt=1
+Traceback (most recent call last):
+  File "/home/user/Documents/bluesec1-agent/.venv/bin/bluesec1-agent", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_agent/cli.py", line 175, in main
+    asyncio.run(run(build_parser().parse_args()))
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_agent/cli.py", line 79, in run
+    RemoteBenchmarkClient(
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/client.py", line 254, in __aenter__
+    await self.open()
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/client.py", line 156, in open
+    run = await self._transport.create_run(command)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/transport/grpc.py", line 203, in create_run
+    response = await self._invoke(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/transport/grpc.py", line 360, in _invoke
+    raise mapped from None
+bluesec1_client.remote.errors.RemoteServerError: The remote runtime failed to process the request.

@@ -1,0 +1,40 @@
+The files in kb/ are derived from Splunk Security Content
+(https://github.com/splunk/security_content), Copyright Splunk Inc.,
+licensed under the Apache License, Version 2.0
+(http://www.apache.org/licenses/LICENSE-2.0).
+
+Changes: only selected fields of endpoint detections, analytic stories and playbooks
+are kept (name, type, ATT&CK ids, stories, description, extracted search conditions,
+known false positives, narrative); text is whitespace-normalized and truncated. The
+record's `source` field names the original file.
+
+
+detections.jsonl also contains records derived from:
+
+- MITRE Cyber Analytics Repository (https://github.com/mitre-attack/car), licensed under
+  the Apache License, Version 2.0. Original NOTICE:
+  Copyright 2022 The MITRE Corporation
+  
+  Approved for Public Release; Distribution Unlimited. Case Number 18-3868.
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+   http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
+  This project makes use of MITRE ATT&CK™
+  ATT&CK™ Terms of Use - https://attack.mitre.org/resources/terms-of-use/
+
+- Google Chronicle detection rules (https://github.com/chronicle/detection-rules),
+  Copyright Google LLC, licensed under the Apache License, Version 2.0. Only rules with a
+  Google LLC Apache-2.0 header are included; SOC Prime and Sigma-derived rules are not.
+
+Changes: only titles, descriptions, ATT&CK ids, a short excerpt of the rule logic and
+the source path are kept; text is whitespace-normalized and truncated.

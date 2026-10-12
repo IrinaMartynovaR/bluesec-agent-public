@@ -1,0 +1,3 @@
+2026-10-10 09:31:34.089 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CreateRun attempt=1
+You have reached your limit of concurrent runs.
+Wait for a running one to finish. If an agent was killed mid-run, its run stays open until it is released.

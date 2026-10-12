@@ -1,0 +1,1092 @@
+2026-10-10 09:31:14.114 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CreateRun attempt=1
+2026-10-10 09:31:14.701 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:31:16.106 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task 76143b8c-0d84-4d66-8249-008ecc518e91.
+2026-10-10 09:31:16.108 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:31:16.110 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:16.742 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:17.105 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:31:22.096 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 4989 ms using 9737 tokens.
+2026-10-10 09:31:22.727 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 630 ms using 9619 tokens.
+2026-10-10 09:31:22.728 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:23.355 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:23.932 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 576 ms using 12118 tokens.
+2026-10-10 09:31:23.933 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:25.381 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:26.241 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 859 ms using 16380 tokens.
+2026-10-10 09:31:26.241 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:27.455 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:29.986 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 2531 ms using 17392 tokens.
+2026-10-10 09:31:29.986 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:30.780 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:31.390 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 609 ms using 18607 tokens.
+2026-10-10 09:31:31.391 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:32.424 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:33.306 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 882 ms using 22077 tokens.
+2026-10-10 09:31:33.307 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:33.758 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:34.441 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 681 ms using 23567 tokens.
+2026-10-10 09:31:34.441 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:35.845 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:36.482 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 637 ms using 24959 tokens.
+2026-10-10 09:31:36.483 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:37.095 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:46.063 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 8966 ms using 28831 tokens.
+2026-10-10 09:31:46.064 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:47.098 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:50.217 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3118 ms using 29929 tokens.
+2026-10-10 09:31:50.947 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 728 ms using 30692 tokens.
+2026-10-10 09:31:50.947 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:52.295 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:31:53.025 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 728 ms using 31741 tokens.
+2026-10-10 09:31:53.025 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:31:54.059 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:32:03.030 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 8970 ms using 33283 tokens.
+2026-10-10 09:32:03.031 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:32:04.178 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:32:05.022 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 842 ms using 34619 tokens.
+2026-10-10 09:32:05.022 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:32:05.504 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:32:24.959 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 19453 ms using 54852 tokens.
+2026-10-10 09:32:24.960 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:32:25.857 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:32:46.970 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 21106 ms using 52508 tokens.
+2026-10-10 09:32:47.416 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 21546 ms using 52636 tokens.
+2026-10-10 09:32:49.402 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 23543 ms using 52982 tokens.
+2026-10-10 09:33:08.547 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 19143 ms using 58015 tokens.
+2026-10-10 09:33:08.790 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 19366 ms using 58004 tokens.
+2026-10-10 09:33:13.659 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 24245 ms using 59073 tokens.
+2026-10-10 09:33:13.660 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 14, 'candidates': 16}.
+2026-10-10 09:33:13.660 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=4 target=domain_or_credential_compromise accepted stages=6 explanations=1 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:33:13.660 | INFO     | bluesec1_agent.agent:_investigate_task:1056 - Dropped 3 artifacts outside the attack chain.
+2026-10-10 09:33:13.661 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:14.298 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:33:14.300 | INFO     | bluesec1_agent.agent:run:532 - Task 76143b8c-0d84-4d66-8249-008ecc518e91 finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=17
+2026-10-10 09:33:14.301 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:33:15.531 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task c3617345-f28d-4545-b148-e2d84fdb9707.
+2026-10-10 09:33:15.533 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:33:15.534 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:16.142 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:17.256 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:33:21.319 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 4062 ms using 9155 tokens.
+2026-10-10 09:33:22.271 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 951 ms using 9259 tokens.
+2026-10-10 09:33:22.271 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:23.397 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:33:23.980 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 582 ms using 9570 tokens.
+2026-10-10 09:33:23.980 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:25.243 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:33:25.801 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 555 ms using 12260 tokens.
+2026-10-10 09:33:25.802 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:28.229 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:33:29.002 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 769 ms using 14310 tokens.
+2026-10-10 09:33:29.002 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:32.199 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:33:32.723 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_relation in 524 ms using 14715 tokens.
+2026-10-10 09:33:32.724 | INFO     | bluesec1_agent.agent:_relation_to_search:2578 - Turned relation lookup 0a4b40b7-c468-5fa7-b566-856879e42fb4 into a search of its owner 8ed731ca-d8c2-5fa0-bb1c-ec1ac8fcab88.
+2026-10-10 09:33:32.724 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:34.366 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:33:34.980 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_relation in 613 ms using 15519 tokens.
+2026-10-10 09:33:34.981 | INFO     | bluesec1_agent.agent:_investigate_task:1339 - Answered get_relation from the case file.
+2026-10-10 09:33:35.552 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 571 ms using 15853 tokens.
+2026-10-10 09:33:35.552 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:37.573 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:33:38.142 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 569 ms using 16780 tokens.
+2026-10-10 09:33:38.142 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:39.336 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:33:40.017 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 681 ms using 17748 tokens.
+2026-10-10 09:33:40.018 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:41.761 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:33:47.305 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 5543 ms using 19723 tokens.
+2026-10-10 09:33:47.306 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:48.303 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:33:48.944 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 640 ms using 19428 tokens.
+2026-10-10 09:33:48.945 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:49.945 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:33:50.542 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 596 ms using 19981 tokens.
+2026-10-10 09:33:50.542 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:52.135 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:33:52.963 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 827 ms using 24308 tokens.
+2026-10-10 09:33:52.964 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:54.123 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:33:54.728 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 604 ms using 24920 tokens.
+2026-10-10 09:33:54.729 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:33:56.097 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:34:06.528 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 10430 ms using 27790 tokens.
+2026-10-10 09:34:06.528 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:34:07.747 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:34:08.508 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 760 ms using 26913 tokens.
+2026-10-10 09:34:08.508 | WARNING  | bluesec1_agent.agent:_investigate_task:1268 - Skipped duplicate search call locally.
+2026-10-10 09:34:09.244 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 735 ms using 27452 tokens.
+2026-10-10 09:34:09.245 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:34:11.311 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:34:11.997 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 685 ms using 28564 tokens.
+2026-10-10 09:34:11.998 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:34:13.082 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:34:16.122 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3039 ms using 30263 tokens.
+2026-10-10 09:34:20.038 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 3914 ms using 32100 tokens.
+2026-10-10 09:34:20.039 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:34:20.899 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:34:37.665 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 16733 ms using 31106 tokens.
+2026-10-10 09:34:45.969 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 25069 ms using 32271 tokens.
+2026-10-10 09:34:48.176 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 27256 ms using 32293 tokens.
+2026-10-10 09:35:06.264 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 18073 ms using 35454 tokens.
+2026-10-10 09:35:07.034 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 18850 ms using 35528 tokens.
+2026-10-10 09:35:11.909 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 23731 ms using 36562 tokens.
+2026-10-10 09:35:11.909 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 8, 'candidates': 8}.
+2026-10-10 09:35:11.910 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=4 target=data_theft accepted stages=4 explanations=1 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:35:11.910 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:14.652 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:35:14.655 | INFO     | bluesec1_agent.agent:run:532 - Task c3617345-f28d-4545-b148-e2d84fdb9707 finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=20
+2026-10-10 09:35:14.655 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:35:18.450 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task 82535abf-87e2-4ec0-b3a2-936afd9d0ecc.
+2026-10-10 09:35:18.452 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:35:18.453 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:19.823 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:21.118 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 1 sections in 2 calls.
+2026-10-10 09:35:24.499 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3380 ms using 8551 tokens.
+2026-10-10 09:35:25.275 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 775 ms using 8654 tokens.
+2026-10-10 09:35:25.276 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:26.240 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:35:26.743 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 502 ms using 9130 tokens.
+2026-10-10 09:35:26.744 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:27.857 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:35:28.372 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 514 ms using 10322 tokens.
+2026-10-10 09:35:28.372 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:29.408 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:35:31.165 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1756 ms using 12484 tokens.
+2026-10-10 09:35:31.165 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:32.196 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:35:33.942 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1745 ms using 12919 tokens.
+2026-10-10 09:35:33.943 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:35.863 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:35:36.530 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_relation in 666 ms using 13696 tokens.
+2026-10-10 09:35:36.530 | INFO     | bluesec1_agent.agent:_relation_to_search:2578 - Turned relation lookup 21c62430-e317-5355-ba44-9726be1e0133 into a search of its owner 991aa183-2163-5985-8d39-b0200bd67feb.
+2026-10-10 09:35:36.531 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:37.694 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:35:38.391 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 696 ms using 15147 tokens.
+2026-10-10 09:35:38.391 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:40.561 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:35:41.446 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 883 ms using 15780 tokens.
+2026-10-10 09:35:41.446 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:43.673 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:35:45.444 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1769 ms using 16726 tokens.
+2026-10-10 09:35:45.445 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:46.732 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:35:48.759 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 2026 ms using 18176 tokens.
+2026-10-10 09:35:48.760 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:50.247 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:35:51.191 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 943 ms using 18357 tokens.
+2026-10-10 09:35:51.192 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:52.060 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:35:52.678 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 617 ms using 19900 tokens.
+2026-10-10 09:35:52.678 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:53.504 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:35:54.168 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 663 ms using 25330 tokens.
+2026-10-10 09:35:54.168 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:35:56.946 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:36:03.482 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 6535 ms using 28340 tokens.
+2026-10-10 09:36:03.483 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:05.456 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:36:06.428 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 971 ms using 28466 tokens.
+2026-10-10 09:36:06.428 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:08.773 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:36:09.382 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 608 ms using 29237 tokens.
+2026-10-10 09:36:09.383 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:12.720 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:36:15.974 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_ad_object_info in 3253 ms using 30499 tokens.
+2026-10-10 09:36:15.974 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:17.135 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_ad_object_info returned status ok.
+2026-10-10 09:36:17.906 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 770 ms using 30613 tokens.
+2026-10-10 09:36:17.907 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:19.047 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:36:27.083 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 8035 ms using 33588 tokens.
+2026-10-10 09:36:27.084 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:27.594 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:36:28.347 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 752 ms using 33771 tokens.
+2026-10-10 09:36:28.347 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:28.971 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:36:29.790 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 819 ms using 35356 tokens.
+2026-10-10 09:36:29.790 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:30.421 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:36:31.177 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 755 ms using 37641 tokens.
+2026-10-10 09:36:31.177 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:31.703 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:36:32.835 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1130 ms using 43041 tokens.
+2026-10-10 09:36:32.835 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:36:33.142 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:36:43.638 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 10495 ms using 50248 tokens.
+2026-10-10 09:36:56.858 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 13218 ms using 52803 tokens.
+2026-10-10 09:36:56.859 | INFO     | bluesec1_agent.agent:_investigate_task:893 - Held the report: 1 hypotheses open.
+2026-10-10 09:37:02.216 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 5357 ms using 52025 tokens.
+2026-10-10 09:37:19.351 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 17132 ms using 55887 tokens.
+2026-10-10 09:37:19.352 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:37:20.102 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:37:37.853 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 17750 ms using 52800 tokens.
+2026-10-10 09:37:40.492 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 20371 ms using 53087 tokens.
+2026-10-10 09:37:42.396 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 22284 ms using 53341 tokens.
+2026-10-10 09:37:53.790 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 11388 ms using 57114 tokens.
+2026-10-10 09:37:55.306 | INFO     | bluesec1_agent.models:validate:144 - Repaired the structure of finish_investigation arguments to fit its schema.
+2026-10-10 09:37:55.307 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 12890 ms using 57397 tokens.
+2026-10-10 09:37:55.540 | INFO     | bluesec1_agent.models:validate:144 - Repaired the structure of finish_investigation arguments to fit its schema.
+2026-10-10 09:37:55.540 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 13131 ms using 57397 tokens.
+2026-10-10 09:37:55.541 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 14, 'candidates': 14}.
+2026-10-10 09:37:55.541 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=3 target=persistent_remote_control accepted stages=7 explanations=2 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:37:55.541 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:37:58.021 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:37:58.025 | INFO     | bluesec1_agent.agent:run:532 - Task 82535abf-87e2-4ec0-b3a2-936afd9d0ecc finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=27
+2026-10-10 09:37:58.025 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:38:03.439 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task 44d640a7-7040-416c-b9f9-38a44a05fb3f.
+2026-10-10 09:38:03.440 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:38:03.442 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:05.913 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:07.906 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:38:11.244 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3338 ms using 10185 tokens.
+2026-10-10 09:38:12.330 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1085 ms using 10583 tokens.
+2026-10-10 09:38:12.330 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:13.475 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:14.196 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 720 ms using 17201 tokens.
+2026-10-10 09:38:14.197 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:15.707 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:16.353 | WARNING  | bluesec1_agent.llm:next_action:170 - Rejected LLM reply on attempt 1/5: Invalid arguments for search: at query: 'Fork' is too short (minLength 5); parameter: Substring to match against ids and attributes. Minimum 5 symbols.
+2026-10-10 09:38:17.285 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 932 ms using 17994 tokens.
+2026-10-10 09:38:17.286 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:19.737 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:38:21.772 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 2034 ms using 18513 tokens.
+2026-10-10 09:38:21.772 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:23.028 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:38:24.324 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1294 ms using 19569 tokens.
+2026-10-10 09:38:24.324 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:26.223 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:27.240 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1016 ms using 25697 tokens.
+2026-10-10 09:38:27.240 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:28.680 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:29.854 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1172 ms using 31703 tokens.
+2026-10-10 09:38:29.854 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:31.536 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:32.629 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1092 ms using 37449 tokens.
+2026-10-10 09:38:32.632 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:34.132 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:38.095 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_ad_object_info in 3961 ms using 45126 tokens.
+2026-10-10 09:38:38.095 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:39.963 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_ad_object_info returned status ok.
+2026-10-10 09:38:41.250 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1286 ms using 45329 tokens.
+2026-10-10 09:38:41.251 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:42.466 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:43.375 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 909 ms using 45474 tokens.
+2026-10-10 09:38:43.376 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:44.202 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:45.368 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1165 ms using 50992 tokens.
+2026-10-10 09:38:45.368 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:46.602 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:47.814 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1211 ms using 51240 tokens.
+2026-10-10 09:38:47.814 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:48.368 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:38:57.063 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 8694 ms using 53763 tokens.
+2026-10-10 09:38:57.063 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:38:58.094 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:39:05.219 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 7123 ms using 51421 tokens.
+2026-10-10 09:39:21.473 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 16243 ms using 53037 tokens.
+2026-10-10 09:39:24.845 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 19619 ms using 53773 tokens.
+2026-10-10 09:39:30.837 | WARNING  | bluesec1_agent.llm:next_action:170 - Rejected LLM reply on attempt 1/5: Invalid arguments for assess_chain: at signal_explanations/5: 'signal' is a required property
+2026-10-10 09:39:38.129 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 7290 ms using 53067 tokens.
+2026-10-10 09:39:49.283 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected legitimacy_form in 11141 ms using 55655 tokens.
+2026-10-10 09:39:49.996 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected legitimacy_form in 11865 ms using 55810 tokens.
+2026-10-10 09:39:52.279 | INFO     | bluesec1_agent.models:validate:148 - Dropped invalid optional arguments ['signal_answers'] of legitimacy_form.
+2026-10-10 09:39:52.280 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected legitimacy_form in 14141 ms using 56210 tokens.
+2026-10-10 09:39:52.281 | INFO     | bluesec1_agent.agent:_write_report:2039 - Benign report from 3 forms: {'samples': 3, 'kept': 4, 'candidates': 4}.
+2026-10-10 09:39:52.281 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=0 target=none accepted stages=0 explanations=5 rejected=1 unexplained=0 -> benign.
+2026-10-10 09:39:52.281 | INFO     | bluesec1_agent.agent:_investigate_task:1171 - Identity arm core_people: added 1.
+2026-10-10 09:39:52.281 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:39:53.986 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:39:53.989 | INFO     | bluesec1_agent.agent:run:532 - Task 44d640a7-7040-416c-b9f9-38a44a05fb3f finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=17
+2026-10-10 09:39:53.990 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:39:58.395 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task 670c3d88-a671-4208-a961-c553f8116bba.
+2026-10-10 09:39:58.396 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:39:58.397 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:39:59.797 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:00.731 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:40:06.674 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 5942 ms using 10562 tokens.
+2026-10-10 09:40:07.653 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 978 ms using 10496 tokens.
+2026-10-10 09:40:07.653 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:08.800 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:40:09.617 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 816 ms using 10855 tokens.
+2026-10-10 09:40:09.617 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:11.433 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:40:12.044 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 610 ms using 11307 tokens.
+2026-10-10 09:40:12.045 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:14.811 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:40:16.203 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1391 ms using 12055 tokens.
+2026-10-10 09:40:16.203 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:17.389 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:40:18.772 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1382 ms using 12549 tokens.
+2026-10-10 09:40:18.773 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:20.957 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:40:21.498 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 541 ms using 12861 tokens.
+2026-10-10 09:40:21.499 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:23.077 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:23.708 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 630 ms using 14605 tokens.
+2026-10-10 09:40:23.708 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:25.102 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:29.555 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 4452 ms using 16390 tokens.
+2026-10-10 09:40:29.556 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:32.342 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:37.208 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 4865 ms using 23355 tokens.
+2026-10-10 09:40:37.208 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:38.142 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:39.150 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1007 ms using 24062 tokens.
+2026-10-10 09:40:39.151 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:39.779 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:40.480 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 700 ms using 25242 tokens.
+2026-10-10 09:40:40.480 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:41.683 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:42.376 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 692 ms using 25739 tokens.
+2026-10-10 09:40:42.376 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:43.741 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:44.446 | WARNING  | bluesec1_agent.llm:next_action:170 - Rejected LLM reply on attempt 1/5: Invalid arguments for search: at query: '5824' is too short (minLength 5); parameter: Substring to match against ids and attributes. Minimum 5 symbols.
+2026-10-10 09:40:45.585 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1138 ms using 26121 tokens.
+2026-10-10 09:40:45.585 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:46.933 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:54.922 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 7988 ms using 32934 tokens.
+2026-10-10 09:40:54.923 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:56.670 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:40:57.637 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 966 ms using 33046 tokens.
+2026-10-10 09:40:57.638 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:40:59.933 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:41:00.558 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 624 ms using 35309 tokens.
+2026-10-10 09:41:00.559 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:41:02.866 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:41:08.315 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 5448 ms using 37814 tokens.
+2026-10-10 09:41:13.524 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 5207 ms using 40456 tokens.
+2026-10-10 09:41:13.525 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:41:16.275 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:41:42.942 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 26666 ms using 41014 tokens.
+2026-10-10 09:41:43.561 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 27274 ms using 41199 tokens.
+2026-10-10 09:41:43.634 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 27352 ms using 41238 tokens.
+2026-10-10 09:42:00.066 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 16416 ms using 44884 tokens.
+2026-10-10 09:42:06.693 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 23049 ms using 46081 tokens.
+2026-10-10 09:42:07.363 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 23726 ms using 46164 tokens.
+2026-10-10 09:42:07.364 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 11, 'candidates': 11}.
+2026-10-10 09:42:07.364 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=3 target=persistent_remote_control accepted stages=5 explanations=3 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:42:07.365 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:08.627 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:42:08.630 | INFO     | bluesec1_agent.agent:run:532 - Task 670c3d88-a671-4208-a961-c553f8116bba finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=20
+2026-10-10 09:42:08.631 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:42:09.823 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task 619ff42e-5bfa-457d-9df2-3eff3a1870f6.
+2026-10-10 09:42:09.825 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:42:09.826 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:10.444 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:12.156 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:42:15.772 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3615 ms using 9493 tokens.
+2026-10-10 09:42:16.427 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 654 ms using 9649 tokens.
+2026-10-10 09:42:16.428 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:17.799 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:18.478 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 678 ms using 11451 tokens.
+2026-10-10 09:42:18.478 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:19.096 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:19.680 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 583 ms using 12540 tokens.
+2026-10-10 09:42:19.681 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:20.621 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:23.060 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 2438 ms using 14261 tokens.
+2026-10-10 09:42:23.061 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:23.737 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:24.622 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 884 ms using 15717 tokens.
+2026-10-10 09:42:24.623 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:25.433 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:26.627 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1194 ms using 16940 tokens.
+2026-10-10 09:42:26.628 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:28.723 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:42:29.327 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 602 ms using 18718 tokens.
+2026-10-10 09:42:29.327 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:31.694 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:32.308 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 613 ms using 24811 tokens.
+2026-10-10 09:42:32.308 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:33.996 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:39.018 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 5022 ms using 27299 tokens.
+2026-10-10 09:42:39.019 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:40.330 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:42:42.637 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 2306 ms using 27224 tokens.
+2026-10-10 09:42:42.637 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:44.053 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:44.843 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 790 ms using 28044 tokens.
+2026-10-10 09:42:44.844 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:48.421 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:49.103 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 681 ms using 28641 tokens.
+2026-10-10 09:42:49.104 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:51.348 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:42:52.055 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 706 ms using 30520 tokens.
+2026-10-10 09:42:52.055 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:42:53.198 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:43:05.166 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 11967 ms using 36021 tokens.
+2026-10-10 09:43:11.958 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 6791 ms using 36767 tokens.
+2026-10-10 09:43:11.959 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:43:12.699 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:43:17.137 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 4437 ms using 36985 tokens.
+2026-10-10 09:43:17.138 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:43:19.953 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:43:34.827 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 14859 ms using 36275 tokens.
+2026-10-10 09:43:37.045 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 17091 ms using 36517 tokens.
+2026-10-10 09:43:38.837 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 18876 ms using 36910 tokens.
+2026-10-10 09:43:56.784 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 17939 ms using 41269 tokens.
+2026-10-10 09:43:59.027 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 20188 ms using 41672 tokens.
+2026-10-10 09:43:59.904 | INFO     | bluesec1_agent.models:validate:144 - Repaired the structure of finish_investigation arguments to fit its schema.
+2026-10-10 09:43:59.904 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 21052 ms using 41786 tokens.
+2026-10-10 09:43:59.905 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 7, 'candidates': 8}.
+2026-10-10 09:43:59.905 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=4 target=persistent_remote_control accepted stages=5 explanations=2 rejected=1 unexplained=0 -> malicious.
+2026-10-10 09:43:59.906 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:00.340 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:44:00.342 | INFO     | bluesec1_agent.agent:run:532 - Task 619ff42e-5bfa-457d-9df2-3eff3a1870f6 finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=18
+2026-10-10 09:44:00.342 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:44:02.175 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task 3d31328d-9ab9-4245-ae7b-9dd3536f680d.
+2026-10-10 09:44:02.176 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:44:02.177 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:03.551 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:04.279 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:44:10.811 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 6530 ms using 10631 tokens.
+2026-10-10 09:44:11.521 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 709 ms using 10668 tokens.
+2026-10-10 09:44:11.522 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:12.876 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:44:13.508 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 631 ms using 11271 tokens.
+2026-10-10 09:44:13.508 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:14.530 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:44:15.158 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 627 ms using 11882 tokens.
+2026-10-10 09:44:15.159 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:16.434 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:21.232 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 4796 ms using 13459 tokens.
+2026-10-10 09:44:21.232 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:23.394 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:24.155 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 760 ms using 14239 tokens.
+2026-10-10 09:44:24.155 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:27.328 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:28.142 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 812 ms using 15619 tokens.
+2026-10-10 09:44:28.142 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:29.466 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:30.266 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 799 ms using 21432 tokens.
+2026-10-10 09:44:30.267 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:31.663 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:32.618 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 955 ms using 23037 tokens.
+2026-10-10 09:44:32.619 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:33.640 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:36.336 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 2696 ms using 26386 tokens.
+2026-10-10 09:44:36.339 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:37.517 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:44:38.382 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 865 ms using 26504 tokens.
+2026-10-10 09:44:38.383 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:39.766 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:40.609 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 841 ms using 27346 tokens.
+2026-10-10 09:44:40.609 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:42.012 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:44.805 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 2792 ms using 29767 tokens.
+2026-10-10 09:44:44.806 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:46.169 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:44:47.154 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 984 ms using 31900 tokens.
+2026-10-10 09:44:47.155 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:44:48.932 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:45:01.174 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 12240 ms using 36335 tokens.
+2026-10-10 09:45:16.607 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 15432 ms using 38645 tokens.
+2026-10-10 09:45:16.608 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:45:17.337 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:45:33.178 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 15828 ms using 35549 tokens.
+2026-10-10 09:45:33.773 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 16428 ms using 35628 tokens.
+2026-10-10 09:45:34.574 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 17235 ms using 35880 tokens.
+2026-10-10 09:45:48.258 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 13671 ms using 41063 tokens.
+2026-10-10 09:45:51.112 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 16530 ms using 41516 tokens.
+2026-10-10 09:45:52.284 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 17708 ms using 41818 tokens.
+2026-10-10 09:45:52.285 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 14, 'candidates': 15}.
+2026-10-10 09:45:52.285 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=4 target=data_theft accepted stages=5 explanations=0 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:45:52.286 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:45:54.373 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:45:54.377 | INFO     | bluesec1_agent.agent:run:532 - Task 3d31328d-9ab9-4245-ae7b-9dd3536f680d finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=17
+2026-10-10 09:45:54.377 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:45:56.847 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task 833e1c8d-32c0-488f-8b7a-994aef0d82d0.
+2026-10-10 09:45:56.849 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:45:56.850 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:45:58.613 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 1 sections in 1 calls.
+2026-10-10 09:46:04.617 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 6003 ms using 8957 tokens.
+2026-10-10 09:46:05.832 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1214 ms using 8987 tokens.
+2026-10-10 09:46:05.832 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:08.236 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:46:08.954 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 717 ms using 10351 tokens.
+2026-10-10 09:46:08.954 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:11.244 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:11.962 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 717 ms using 12144 tokens.
+2026-10-10 09:46:11.962 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:15.087 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:15.778 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 690 ms using 13158 tokens.
+2026-10-10 09:46:15.778 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:17.109 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:18.676 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1566 ms using 16017 tokens.
+2026-10-10 09:46:18.676 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:19.590 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:20.188 | WARNING  | bluesec1_agent.llm:next_action:170 - Rejected LLM reply on attempt 1/5: Invalid arguments for search: at query: '.php' is too short (minLength 5); parameter: Substring to match against ids and attributes. Minimum 5 symbols.
+2026-10-10 09:46:20.834 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 644 ms using 16277 tokens.
+2026-10-10 09:46:20.834 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:21.605 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:22.085 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 478 ms using 17506 tokens.
+2026-10-10 09:46:22.085 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:23.073 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:23.657 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 583 ms using 19052 tokens.
+2026-10-10 09:46:23.657 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:24.864 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:25.555 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 689 ms using 19576 tokens.
+2026-10-10 09:46:25.556 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:26.681 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:46:28.670 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1988 ms using 20628 tokens.
+2026-10-10 09:46:28.671 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:29.447 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:30.205 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 758 ms using 20876 tokens.
+2026-10-10 09:46:30.205 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:33.603 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:34.346 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 742 ms using 22835 tokens.
+2026-10-10 09:46:34.346 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:35.947 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:36.660 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 712 ms using 27384 tokens.
+2026-10-10 09:46:36.661 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:37.657 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:38.297 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 639 ms using 28512 tokens.
+2026-10-10 09:46:38.297 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:46:40.998 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:46:52.762 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 11762 ms using 32315 tokens.
+2026-10-10 09:47:04.770 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 12007 ms using 34141 tokens.
+2026-10-10 09:47:20.155 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 15378 ms using 31721 tokens.
+2026-10-10 09:47:23.669 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 18887 ms using 32248 tokens.
+2026-10-10 09:47:26.324 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 21552 ms using 32697 tokens.
+2026-10-10 09:47:40.921 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 14595 ms using 36420 tokens.
+2026-10-10 09:47:43.648 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 17310 ms using 36623 tokens.
+2026-10-10 09:47:44.609 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 18277 ms using 36846 tokens.
+2026-10-10 09:47:44.610 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 11, 'candidates': 11}.
+2026-10-10 09:47:44.610 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=4 target=data_theft accepted stages=6 explanations=1 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:47:44.611 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:47:45.001 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:47:45.003 | INFO     | bluesec1_agent.agent:run:532 - Task 833e1c8d-32c0-488f-8b7a-994aef0d82d0 finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=16
+2026-10-10 09:47:45.003 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:47:47.411 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task ae6cb208-2536-4116-9ee2-d2534a460d35.
+2026-10-10 09:47:47.412 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:47:47.413 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:47:48.268 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:47:48.969 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:47:52.112 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3141 ms using 9085 tokens.
+2026-10-10 09:47:52.756 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 643 ms using 9386 tokens.
+2026-10-10 09:47:52.757 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:47:53.169 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:47:54.007 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 837 ms using 11409 tokens.
+2026-10-10 09:47:54.008 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:47:54.805 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:47:55.382 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 576 ms using 12451 tokens.
+2026-10-10 09:47:55.383 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:47:56.564 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:47:57.589 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1023 ms using 13081 tokens.
+2026-10-10 09:47:57.589 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:47:58.680 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:47:59.327 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_relation in 646 ms using 14002 tokens.
+2026-10-10 09:47:59.327 | INFO     | bluesec1_agent.agent:_relation_to_search:2578 - Turned relation lookup 17e18356-cca3-5252-8df3-c17b61377b05 into a search of its owner b8e84bf2-0b9f-52c6-83ba-41033360a86c.
+2026-10-10 09:47:59.327 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:47:59.957 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:00.633 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 675 ms using 15836 tokens.
+2026-10-10 09:48:00.633 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:01.013 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:01.574 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 560 ms using 17548 tokens.
+2026-10-10 09:48:01.575 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:01.942 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:02.634 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 691 ms using 23262 tokens.
+2026-10-10 09:48:02.634 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:03.195 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:07.642 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 4446 ms using 25043 tokens.
+2026-10-10 09:48:07.642 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:08.522 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:09.292 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 769 ms using 25577 tokens.
+2026-10-10 09:48:09.293 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:10.647 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:48:11.330 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 681 ms using 28750 tokens.
+2026-10-10 09:48:11.330 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:14.855 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:15.597 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 741 ms using 28855 tokens.
+2026-10-10 09:48:15.597 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:19.094 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:19.900 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 805 ms using 31360 tokens.
+2026-10-10 09:48:19.900 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:23.305 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:27.637 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 4331 ms using 33813 tokens.
+2026-10-10 09:48:27.637 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:31.240 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:48:34.795 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3555 ms using 37580 tokens.
+2026-10-10 09:48:35.365 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 568 ms using 38683 tokens.
+2026-10-10 09:48:35.365 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:37.609 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:48:41.761 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 4150 ms using 40228 tokens.
+2026-10-10 09:48:41.762 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:48:44.109 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:48:55.126 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 11005 ms using 38811 tokens.
+2026-10-10 09:48:55.686 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 11575 ms using 38912 tokens.
+2026-10-10 09:48:55.780 | INFO     | bluesec1_agent.models:validate:144 - Repaired the structure of assess_chain arguments to fit its schema.
+2026-10-10 09:48:55.780 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 11663 ms using 39025 tokens.
+2026-10-10 09:49:15.967 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 20176 ms using 44524 tokens.
+2026-10-10 09:49:19.821 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 24039 ms using 45073 tokens.
+2026-10-10 09:49:21.005 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 25209 ms using 45313 tokens.
+2026-10-10 09:49:21.006 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 11, 'candidates': 13}.
+2026-10-10 09:49:21.006 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=3 target=persistent_remote_control accepted stages=6 explanations=2 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:49:21.006 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:22.177 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:49:22.180 | INFO     | bluesec1_agent.agent:run:532 - Task ae6cb208-2536-4116-9ee2-d2534a460d35 finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=19
+2026-10-10 09:49:22.180 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:49:23.313 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task fbf78740-3885-4973-b848-2a7f99209ed4.
+2026-10-10 09:49:23.315 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:49:23.316 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:24.001 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:24.367 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:49:30.037 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 5669 ms using 10577 tokens.
+2026-10-10 09:49:30.676 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 638 ms using 10611 tokens.
+2026-10-10 09:49:30.677 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:31.046 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:49:31.713 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 666 ms using 11300 tokens.
+2026-10-10 09:49:31.713 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:32.486 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:33.210 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 723 ms using 15496 tokens.
+2026-10-10 09:49:33.210 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:33.662 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:35.860 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 2198 ms using 18422 tokens.
+2026-10-10 09:49:35.861 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:36.330 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:37.292 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 961 ms using 25972 tokens.
+2026-10-10 09:49:37.293 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:38.129 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:38.927 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 797 ms using 27094 tokens.
+2026-10-10 09:49:38.928 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:40.163 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:41.688 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1523 ms using 27615 tokens.
+2026-10-10 09:49:41.688 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:43.009 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:49:43.755 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_relation in 746 ms using 28509 tokens.
+2026-10-10 09:49:43.756 | INFO     | bluesec1_agent.agent:_relation_to_search:2578 - Turned relation lookup db29cda0-6618-57de-831d-146c534b90e9 into a search of its owner c7f15fa6-3d13-5a27-822c-c715447cfa68.
+2026-10-10 09:49:43.756 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:44.764 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:50.316 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 5551 ms using 31193 tokens.
+2026-10-10 09:49:50.316 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:50.668 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:49:51.537 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 868 ms using 30932 tokens.
+2026-10-10 09:49:51.537 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:51.938 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:52.898 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 959 ms using 32150 tokens.
+2026-10-10 09:49:52.898 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:53.388 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:56.431 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 3042 ms using 33868 tokens.
+2026-10-10 09:49:56.432 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:57.326 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:49:58.383 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1056 ms using 34831 tokens.
+2026-10-10 09:49:58.384 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:49:59.023 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:50:12.332 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 13309 ms using 39120 tokens.
+2026-10-10 09:50:22.361 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 10027 ms using 40798 tokens.
+2026-10-10 09:50:22.361 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:50:22.836 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:50:39.104 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 16258 ms using 39304 tokens.
+2026-10-10 09:50:41.344 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 18502 ms using 39716 tokens.
+2026-10-10 09:50:41.588 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 18751 ms using 39882 tokens.
+2026-10-10 09:50:54.898 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 13307 ms using 43949 tokens.
+2026-10-10 09:50:57.988 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 16393 ms using 44636 tokens.
+2026-10-10 09:50:58.468 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 16867 ms using 44707 tokens.
+2026-10-10 09:50:58.469 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 11, 'candidates': 13}.
+2026-10-10 09:50:58.469 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=2 target=persistent_remote_control accepted stages=5 explanations=2 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:50:58.469 | WARNING  | bluesec1_agent.agent:_investigate_task:1347 - Rejected finish_investigation call locally: entity_id '82ba9414-e2f7-5c08-a0d0-29ed3ecadf12' never appeared in the alert or any tool result; copy ids exactly. Did you mean '82ba9414-e2f7-5c02-924b-29ed3ecadf12'?
+2026-10-10 09:51:02.883 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 4412 ms using 41590 tokens.
+2026-10-10 09:51:02.884 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:06.160 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:51:06.164 | INFO     | bluesec1_agent.agent:run:532 - Task fbf78740-3885-4973-b848-2a7f99209ed4 finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=17
+2026-10-10 09:51:06.164 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:51:09.857 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task f80e2317-c1be-4738-8168-08d0b838b490.
+2026-10-10 09:51:09.858 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:51:09.859 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:11.923 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:12.849 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:51:20.739 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 7889 ms using 10783 tokens.
+2026-10-10 09:51:21.538 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 798 ms using 10916 tokens.
+2026-10-10 09:51:21.538 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:22.262 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:23.153 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 889 ms using 12619 tokens.
+2026-10-10 09:51:23.153 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:23.898 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:51:24.719 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 820 ms using 13559 tokens.
+2026-10-10 09:51:24.719 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:25.920 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:28.987 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 3066 ms using 15659 tokens.
+2026-10-10 09:51:28.987 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:29.941 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:31.035 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1093 ms using 22012 tokens.
+2026-10-10 09:51:31.036 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:33.319 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:34.017 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 697 ms using 23577 tokens.
+2026-10-10 09:51:34.017 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:35.002 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:35.692 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 689 ms using 24537 tokens.
+2026-10-10 09:51:35.693 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:36.915 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:37.715 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 798 ms using 27898 tokens.
+2026-10-10 09:51:37.715 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:38.443 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:44.086 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 5642 ms using 31324 tokens.
+2026-10-10 09:51:44.087 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:45.030 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:51:45.869 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 839 ms using 30871 tokens.
+2026-10-10 09:51:45.870 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:47.802 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:52.720 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 4916 ms using 33422 tokens.
+2026-10-10 09:51:52.720 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:56.553 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:57.315 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 762 ms using 34667 tokens.
+2026-10-10 09:51:57.316 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:51:59.043 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:51:59.755 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 712 ms using 35174 tokens.
+2026-10-10 09:51:59.756 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:52:00.346 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:52:09.348 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 9002 ms using 38521 tokens.
+2026-10-10 09:52:09.349 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:52:10.171 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:52:10.883 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 711 ms using 37639 tokens.
+2026-10-10 09:52:10.883 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:52:12.629 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:52:13.679 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_ad_object_info in 1049 ms using 39419 tokens.
+2026-10-10 09:52:13.680 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:52:14.576 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_ad_object_info returned status ok.
+2026-10-10 09:52:18.226 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3649 ms using 40525 tokens.
+2026-10-10 09:52:23.521 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 5293 ms using 42602 tokens.
+2026-10-10 09:52:23.521 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:52:24.262 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 09:52:48.042 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 23773 ms using 42887 tokens.
+2026-10-10 09:52:50.744 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 26481 ms using 43388 tokens.
+2026-10-10 09:52:51.794 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 27520 ms using 43823 tokens.
+2026-10-10 09:53:08.338 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 16541 ms using 47641 tokens.
+2026-10-10 09:53:12.197 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 20388 ms using 48396 tokens.
+2026-10-10 09:53:14.958 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 23155 ms using 48847 tokens.
+2026-10-10 09:53:14.959 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 12, 'candidates': 15}.
+2026-10-10 09:53:14.959 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=4 target=fraud_or_data_tampering accepted stages=6 explanations=1 rejected=0 unexplained=0 -> malicious.
+2026-10-10 09:53:14.959 | WARNING  | bluesec1_agent.agent:_investigate_task:1347 - Rejected finish_investigation call locally: entity_id '00f3d8a0-e75c-522a-bc9-d8013f187b55' never appeared in the alert or any tool result; copy ids exactly. Did you mean '00f3d8a0-e75c-522a-b2c9-d8013f187b55'?
+2026-10-10 09:53:19.586 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 4625 ms using 44354 tokens.
+2026-10-10 09:53:19.586 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:53:23.878 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:53:23.882 | INFO     | bluesec1_agent.agent:run:532 - Task f80e2317-c1be-4738-8168-08d0b838b490 finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=20
+2026-10-10 09:53:23.882 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:53:28.362 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task de456b81-6cf7-4b99-a3de-0712714aafa9.
+2026-10-10 09:53:28.363 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:53:28.366 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:53:31.116 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:53:34.352 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:53:38.072 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3719 ms using 9442 tokens.
+2026-10-10 09:53:38.716 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 643 ms using 9602 tokens.
+2026-10-10 09:53:38.717 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:53:40.751 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:53:41.397 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 644 ms using 10402 tokens.
+2026-10-10 09:53:41.397 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:53:45.366 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:53:46.019 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 652 ms using 10796 tokens.
+2026-10-10 09:53:46.020 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:53:49.215 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:53:51.595 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 2379 ms using 12691 tokens.
+2026-10-10 09:53:51.595 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:53:56.539 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:53:57.225 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 685 ms using 13794 tokens.
+2026-10-10 09:53:57.225 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:53:59.980 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:04.734 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 4753 ms using 15731 tokens.
+2026-10-10 09:54:04.734 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:05.846 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:54:06.614 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 768 ms using 18217 tokens.
+2026-10-10 09:54:06.615 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:09.992 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:10.800 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 807 ms using 23104 tokens.
+2026-10-10 09:54:10.801 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:12.550 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:22.618 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 10066 ms using 31900 tokens.
+2026-10-10 09:54:22.618 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:24.369 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:25.512 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1143 ms using 33204 tokens.
+2026-10-10 09:54:25.513 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:26.527 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:27.593 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1066 ms using 33338 tokens.
+2026-10-10 09:54:27.593 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:28.493 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:29.632 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1138 ms using 34740 tokens.
+2026-10-10 09:54:29.632 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:31.026 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:31.871 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 844 ms using 35308 tokens.
+2026-10-10 09:54:31.872 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:32.820 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:39.179 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 6358 ms using 43370 tokens.
+2026-10-10 09:54:39.180 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:40.194 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:54:41.537 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1342 ms using 43240 tokens.
+2026-10-10 09:54:41.538 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:42.287 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:43.224 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 936 ms using 43685 tokens.
+2026-10-10 09:54:43.224 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:54:44.274 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:54:52.712 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 8437 ms using 47761 tokens.
+2026-10-10 09:55:03.797 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 11083 ms using 49983 tokens.
+2026-10-10 09:55:03.798 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:55:06.190 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:55:08.443 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:55:11.445 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 3 commands in 3 calls.
+2026-10-10 09:55:23.782 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 12321 ms using 47382 tokens.
+2026-10-10 09:55:24.611 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 13165 ms using 47461 tokens.
+2026-10-10 09:55:28.705 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 17252 ms using 48108 tokens.
+2026-10-10 09:55:38.379 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected legitimacy_form in 9671 ms using 49472 tokens.
+2026-10-10 09:55:39.424 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected legitimacy_form in 10710 ms using 49644 tokens.
+2026-10-10 09:55:39.580 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected legitimacy_form in 10858 ms using 49724 tokens.
+2026-10-10 09:55:39.581 | INFO     | bluesec1_agent.agent:_write_report:2039 - Benign report from 3 forms: {'samples': 3, 'kept': 4, 'candidates': 4}.
+2026-10-10 09:55:39.581 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=0 target=none accepted stages=0 explanations=2 rejected=1 unexplained=1 -> benign.
+2026-10-10 09:55:39.581 | INFO     | bluesec1_agent.agent:_investigate_task:1171 - Identity arm core_people: added 2.
+2026-10-10 09:55:39.581 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:55:41.411 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool finish_investigation returned status ok.
+2026-10-10 09:55:41.429 | INFO     | bluesec1_agent.agent:run:532 - Task de456b81-6cf7-4b99-a3de-0712714aafa9 finished: reason=terminated quality=0.000 efficiency=0.000 reward=0.000 tool_calls=22
+2026-10-10 09:55:41.429 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 09:55:46.785 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task fcc16891-c479-4681-8ee7-eceb188bd45e.
+2026-10-10 09:55:46.786 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 09:55:46.786 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:55:50.993 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:55:52.602 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 09:55:57.179 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 4576 ms using 8974 tokens.
+2026-10-10 09:55:57.935 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 755 ms using 9022 tokens.
+2026-10-10 09:55:57.936 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:55:59.423 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:56:00.153 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 730 ms using 10733 tokens.
+2026-10-10 09:56:00.154 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:01.937 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:02.611 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 673 ms using 12245 tokens.
+2026-10-10 09:56:02.611 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:04.336 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:08.221 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 3884 ms using 13936 tokens.
+2026-10-10 09:56:08.221 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:09.780 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 09:56:14.242 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 4462 ms using 14437 tokens.
+2026-10-10 09:56:14.243 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:16.487 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:17.314 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 825 ms using 15720 tokens.
+2026-10-10 09:56:17.314 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:18.797 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:19.618 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 820 ms using 17865 tokens.
+2026-10-10 09:56:19.618 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:21.426 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:56:22.198 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 771 ms using 18504 tokens.
+2026-10-10 09:56:22.198 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:23.565 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:56:27.384 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_relation in 3818 ms using 20104 tokens.
+2026-10-10 09:56:27.385 | INFO     | bluesec1_agent.agent:_relation_to_search:2578 - Turned relation lookup aa68ce5f-6f1e-53ff-9a2b-15274b87ba55 into a search of its owner f53792fd-24df-52d0-bfe1-9727359f520b.
+2026-10-10 09:56:27.385 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:29.376 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:30.192 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 815 ms using 20128 tokens.
+2026-10-10 09:56:30.192 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:34.883 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:35.490 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 607 ms using 20346 tokens.
+2026-10-10 09:56:35.491 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:37.962 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:38.817 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_ad_object_info in 854 ms using 21328 tokens.
+2026-10-10 09:56:38.818 | INFO     | bluesec1_agent.agent:_redirect_lookup:2519 - Redirected get_ad_object_info(6f62f39a-1cc9-5fca-9fc0-d1ceac2a4022) to get_entity(6f62f39a-1cc9-5fca-9fc0-d1ceac2a4022).
+2026-10-10 09:56:38.818 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:40.241 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:56:40.901 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_ad_object_info in 659 ms using 22185 tokens.
+2026-10-10 09:56:40.902 | INFO     | bluesec1_agent.agent:_redirect_lookup:2519 - Redirected get_ad_object_info(6f62f39a-1cc9-5fca-9fc0-d1ceac2a4022) to get_entity(6f62f39a-1cc9-5fca-9fc0-d1ceac2a4022).
+2026-10-10 09:56:40.902 | WARNING  | bluesec1_agent.agent:_investigate_task:1268 - Skipped duplicate get_entity call locally.
+2026-10-10 09:56:42.018 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_relation in 1116 ms using 22754 tokens.
+2026-10-10 09:56:42.018 | INFO     | bluesec1_agent.agent:_relation_to_search:2578 - Turned relation lookup 38476519-9bdd-5c12-ad3a-a2b1dcdcd781 into a search of its owner 6f62f39a-1cc9-5fca-9fc0-d1ceac2a4022.
+2026-10-10 09:56:42.019 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:44.902 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:56.588 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 11685 ms using 26683 tokens.
+2026-10-10 09:56:56.588 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:56:58.954 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:56:59.700 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 745 ms using 25035 tokens.
+2026-10-10 09:56:59.701 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:02.007 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:57:02.868 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 860 ms using 25430 tokens.
+2026-10-10 09:57:02.868 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:05.216 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:57:12.757 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 7541 ms using 27128 tokens.
+2026-10-10 09:57:12.758 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:13.350 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:57:14.313 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 961 ms using 28616 tokens.
+2026-10-10 09:57:14.313 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:15.644 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:57:18.802 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 3157 ms using 31609 tokens.
+2026-10-10 09:57:18.802 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:21.823 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:57:22.661 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 837 ms using 31902 tokens.
+2026-10-10 09:57:22.661 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:25.502 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:57:26.309 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 806 ms using 32459 tokens.
+2026-10-10 09:57:26.310 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:28.391 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:57:29.360 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 968 ms using 33149 tokens.
+2026-10-10 09:57:29.361 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:30.928 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:57:32.165 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_entity in 1236 ms using 33660 tokens.
+2026-10-10 09:57:32.166 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:33.729 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool get_entity returned status ok.
+2026-10-10 09:57:47.406 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected get_relation in 13675 ms using 36746 tokens.
+2026-10-10 09:57:47.406 | INFO     | bluesec1_agent.agent:_relation_to_search:2578 - Turned relation lookup 48197771-6900-5a21-a6ca-6e010b1bc938 into a search of its owner 7108d7dc-0a86-52f5-ba2a-2a7c2129f3b1.
+2026-10-10 09:57:47.406 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:50.130 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:57:51.078 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 947 ms using 35467 tokens.
+2026-10-10 09:57:51.078 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:53.175 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:57:56.190 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 3014 ms using 36868 tokens.
+2026-10-10 09:57:58.387 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 2196 ms using 37661 tokens.
+2026-10-10 09:57:58.387 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:57:59.662 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:00.538 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 875 ms using 38643 tokens.
+2026-10-10 09:58:00.538 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:02.184 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:03.089 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 904 ms using 39309 tokens.
+2026-10-10 09:58:03.089 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:07.998 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:12.383 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 4383 ms using 42081 tokens.
+2026-10-10 09:58:12.383 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:14.104 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:15.066 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 956 ms using 43399 tokens.
+2026-10-10 09:58:15.067 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:17.354 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:18.215 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 860 ms using 50905 tokens.
+2026-10-10 09:58:18.216 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:20.299 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:21.393 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1092 ms using 52104 tokens.
+2026-10-10 09:58:21.393 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:23.185 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:24.095 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 909 ms using 54415 tokens.
+2026-10-10 09:58:24.096 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:25.913 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:40.553 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 14638 ms using 59300 tokens.
+2026-10-10 09:58:40.553 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:42.864 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:44.036 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1171 ms using 56987 tokens.
+2026-10-10 09:58:44.037 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:45.676 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:46.679 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1002 ms using 57968 tokens.
+2026-10-10 09:58:46.679 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:48.776 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:49.713 | WARNING  | bluesec1_agent.llm:next_action:170 - Rejected LLM reply on attempt 1/5: Invalid arguments for search: at query: 'pg62' is too short (minLength 5); parameter: Substring to match against ids and attributes. Minimum 5 symbols.
+2026-10-10 09:58:50.593 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 879 ms using 58877 tokens.
+2026-10-10 09:58:50.593 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:52.376 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:58:53.607 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 1230 ms using 59324 tokens.
+2026-10-10 09:58:53.607 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:58:54.210 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 09:59:36.688 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 42477 ms using 68519 tokens.
+2026-10-10 09:59:46.064 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 9374 ms using 64628 tokens.
+2026-10-10 09:59:46.065 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 09:59:47.457 | INFO     | bluesec1_agent.agent:_stack:2224 - Stacking: 1 commands in 1 calls.
+2026-10-10 10:00:03.171 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 15702 ms using 63424 tokens.
+2026-10-10 10:00:03.933 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 16475 ms using 63600 tokens.
+2026-10-10 10:00:04.583 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected assess_chain in 17102 ms using 63805 tokens.
+2026-10-10 10:00:17.092 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 12505 ms using 66982 tokens.
+2026-10-10 10:00:18.929 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 14319 ms using 67314 tokens.
+2026-10-10 10:00:19.725 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected finish_investigation in 15126 ms using 67521 tokens.
+2026-10-10 10:00:19.726 | INFO     | bluesec1_agent.agent:_write_report:2062 - Report votes: {'samples': 3, 'kept': 8, 'candidates': 8}.
+2026-10-10 10:00:19.726 | INFO     | bluesec1_agent.agent:_review:1857 - Chain assessment (agreed): proximity=3 target=domain_or_credential_compromise accepted stages=3 explanations=2 rejected=1 unexplained=0 -> malicious.
+2026-10-10 10:00:19.727 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 10:00:19.850 | ERROR    | bluesec1_agent.agent:run:522 - Task fcc16891-c479-4681-8ee7-eceb188bd45e failed in the agent: The remote run could not be found.
+2026-10-10 10:00:19.850 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=AbortTask attempt=1
+2026-10-10 10:00:19.976 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CloseRun attempt=1
+2026-10-10 10:00:20.103 | WARNING  | bluesec1_client.remote.client:__aexit__:285 - Remote client cleanup failed while preserving the context exception
+Traceback (most recent call last):
+
+  File "/home/user/Documents/bluesec1-agent/.venv/bin/bluesec1-agent", line 10, in <module>
+    sys.exit(main())
+    │   │    └ <function main at 0x7ce599fcf9c0>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_agent/cli.py", line 199, in main
+    asyncio.run(run(build_parser().parse_args()))
+    │       │   │   └ <function build_parser at 0x7ce599f43380>
+    │       │   └ <function run at 0x7ce599fcd120>
+    │       └ <function run at 0x7ce59d22f740>
+    └ <module 'asyncio' from '/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/__...
+
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           │      │   └ <coroutine object run at 0x7ce599fd4e50>
+           │      └ <function Runner.run at 0x7ce59d0d7240>
+           └ <asyncio.runners.Runner object at 0x7ce59d563140>
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<run() running at /home/user/Documents/bluesec1-agent/src/bluesec1_agent/cli.py:...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x7ce59d0d4e00>
+           │    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x7ce59d563140>
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 678, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7ce59d0d4d60>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 645, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7ce59d0d6b60>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 1999, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7ce59d244680>
+    └ <Handle Task.task_wakeup(<Task finishe...grpc.aio.EOF>>)>
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Task finishe...grpc.aio.EOF>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Task finishe...grpc.aio.EOF>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Task finishe...grpc.aio.EOF>>)>
+
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_agent/cli.py", line 79, in run
+    RemoteBenchmarkClient(
+    └ <class 'bluesec1_client.remote.client.RemoteBenchmarkClient'>
+
+> File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/client.py", line 281, in __aexit__
+    await self.aclose(reason=reason, error_message=error_message)
+          │    │             │                     └ 'RemoteRunNotFoundError: The remote run could not be found.'
+          │    │             └ 'client_error'
+          │    └ <function RemoteBenchmarkClient.aclose at 0x7ce599f42d40>
+          └ RemoteBenchmarkClient(state='closed')
+
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/client.py", line 244, in aclose
+    raise close_error
+          └ RemoteRunNotFoundError('The remote run could not be found.')
+
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/client.py", line 227, in aclose
+    await self._transport.close_run(
+          │    │          └ <function GrpcRemoteTransport.close_run at 0x7ce599f42480>
+          │    └ GrpcRemoteTransport(endpoint='bluesec.team:443', closed=True)
+          └ RemoteBenchmarkClient(state='closed')
+
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/transport/grpc.py", line 289, in close_run
+    response = await self._invoke(
+                     │    └ <function GrpcRemoteTransport._invoke at 0x7ce599f425c0>
+                     └ GrpcRemoteTransport(endpoint='bluesec.team:443', closed=True)
+
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/transport/grpc.py", line 360, in _invoke
+    raise mapped from None
+          └ RemoteRunNotFoundError('The remote run could not be found.')
+
+bluesec1_client.remote.errors.RemoteRunNotFoundError: The remote run could not be found.
+Traceback (most recent call last):
+  File "/home/user/Documents/bluesec1-agent/.venv/bin/bluesec1-agent", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_agent/cli.py", line 199, in main
+    asyncio.run(run(build_parser().parse_args()))
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_agent/cli.py", line 94, in run
+    result = await InvestigationAgent(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_agent/agent.py", line 525, in run
+    aborted_result = await session.abort_task(error_message=error_message)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/session.py", line 173, in abort_task
+    outcome = await self._transport.abort_task(command)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/transport/grpc.py", line 267, in abort_task
+    response = await self._invoke(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Documents/bluesec1-agent/src/bluesec1_client/remote/transport/grpc.py", line 360, in _invoke
+    raise mapped from None
+bluesec1_client.remote.errors.RemoteRunNotFoundError: The remote run could not be found.

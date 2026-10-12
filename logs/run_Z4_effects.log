@@ -1,0 +1,30 @@
+2026-10-10 08:19:24.534 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CreateRun attempt=1
+2026-10-10 08:19:25.314 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=LeaseTask attempt=1
+2026-10-10 08:19:25.770 | INFO     | bluesec1_agent.agent:run:517 - Starting investigation for task 11d5f05c-f347-482c-a001-895989bcd444.
+2026-10-10 08:19:25.771 | DEBUG    | bluesec1_agent.agent:_investigate_task:608 - Advertised tools: ['finish_investigation', 'get_ad_object_info', 'get_entity', 'get_relation', 'search']
+2026-10-10 08:19:25.772 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:26.037 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:26.244 | INFO     | bluesec1_agent.agent:_sweep_host:1577 - Pre-investigation sweeps: 2 sections in 2 calls.
+2026-10-10 08:19:34.599 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected hypotheses in 8353 ms using 10409 tokens.
+2026-10-10 08:19:35.398 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected prevalence in 798 ms using 10797 tokens.
+2026-10-10 08:19:35.398 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:35.795 | INFO     | bluesec1_agent.agent:_investigate_task:1320 - Composite prevalence spent 1 runtime calls.
+2026-10-10 08:19:36.553 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 757 ms using 11345 tokens.
+2026-10-10 08:19:36.553 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:36.862 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 08:19:37.614 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 752 ms using 14084 tokens.
+2026-10-10 08:19:37.615 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:37.940 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 08:19:40.825 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 2884 ms using 18594 tokens.
+2026-10-10 08:19:40.825 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:41.142 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 08:19:41.857 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 715 ms using 19846 tokens.
+2026-10-10 08:19:41.858 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:42.192 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 08:19:42.846 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 653 ms using 21726 tokens.
+2026-10-10 08:19:42.846 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:43.196 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
+2026-10-10 08:19:47.620 | WARNING  | bluesec1_agent.llm:next_action:170 - Rejected LLM reply on attempt 1/5: Invalid arguments for search: at query: 'KAPE' is too short (minLength 5); parameter: Substring to match against ids and attributes. Minimum 5 symbols.
+2026-10-10 08:19:48.442 | INFO     | bluesec1_agent.llm:next_action:164 - LLM selected search in 821 ms using 23558 tokens.
+2026-10-10 08:19:48.443 | DEBUG    | bluesec1_client.remote.transport.grpc:_invoke:344 - Remote RPC attempt: operation=CallTool attempt=1
+2026-10-10 08:19:48.758 | INFO     | bluesec1_agent.agent:_investigate_task:1393 - Tool search returned status ok.
