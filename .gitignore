@@ -8,6 +8,5 @@ dist/
 build/
 *.egg-info/
 runs/
-.cl*
 .mypy_cache
-docs/
+
